@@ -1,0 +1,196 @@
+<!--Estructura de codigo de etiqueta  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Saber como estructurar una pagina web  </title>
+</head>
+<body>
+    <!--H Es para encabezados de diferentes tamaños -->
+    <h1>Encabezado H1</h1>
+    <h2>Encabezado H2</h2>
+    <h3>Encabezado H3</h3>
+    <h4>Encabezado H4</h4>
+    <h5>Encabezado H5</h5>
+    <h6>Encabezado H6</h6>
+    <!--P es para parrafos -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nam, inventore, ducimus facere nesciunt, ab obcaecati laboriosam modi fugit aspernatur soluta dolore rerum. Vero possimus exercitationem facere minima eum numquam.</p>
+    <!--B es para subrayar texto (Elemento en bloque)-->
+    <br>
+    <b>Lorem ipsum dolor sit amet.</b>
+    <br>
+    <!--Strong para resaltar el texto -->
+    <strong>Lorem ipsum dolor sit amet.</strong>
+    <br>
+    <!--I Permite cabiar el tipo de letra  a cursiva  -->
+    <i>Lorem, ipsum.</i>
+    <br>
+    <!--Mark es para resaltar texto o subrayarlo de color amarillo -->
+    <mark>Lorem, ipsum.</mark>
+    <br>
+    <!--abbr Permite remarcarla abrebiatura de un texto -->
+    <abbr title="Hola ">Hola </abbr>
+    <br>
+    <!--Blockquote sirve para citar textos  -->
+    <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing.</blockquote>
+    <!--Hr permite separar textos con una linea   -->
+    <hr>
+    <!--Br permite crear el espacio entre texto -->
+    <p>Lorem ipsum <br> dolor sit amet.</br> </p>
+    <br>
+    <!--Img sirve para declarar imagenes  y with permite cambiar el tamaño de la imagen  -->
+    <img src="C:\Users\x56dr\OneDrive\Imágenes\Spider-Verse.jpg" alt="Spider-Verse" width="1000"  >
+    <!--A Sirve para declarar enlaces mediante href y target con el uso de _blank hace que los nuevos enlaces sean en otra pagina -->
+    <hr>
+    <a href="C:\Users\x56dr\OneDrive\Imágenes\Spider-Verse.jpg" target="_blank">Spider-Verse</a>
+    <!--Se debe destacar que tambien las imagenes pueden ser usada para enlaces  -->
+    <hr>
+    <a href="C:\Users\x56dr\OneDrive\Imágenes\17010-4k.jpg"> <img src="C:\Users\x56dr\OneDrive\Imágenes\17010-4k.jpg" alt="Paisaje" width="1000"> <hr>  Paisaje</a>
+    <hr>
+    <!--Formularios (Frontend ) y input  -->
+    <h1 style="text-align: center;">Formulario</h1>
+    <form action="">
+         <!--Label sirve de etiqueta  -->
+        <div>
+            <label for="">Ingrese Nombre :</label>
+            <input type="text" name="Nombre" id="Nombre" placeholder="Nombre">
+        </div>
+        <br>
+        <div>
+            <label for="">Ingrese Edad :</label>
+            <input type="number" name="Edad" id="Edad" placeholder="Edad">
+        </div>
+        <br>
+        <div>
+            <label for="">Ingrese Email :</label>
+            <input type="mail" name="email" id="email" placeholder="Email">
+        </div>
+        <br>
+        <div>
+            <p>Ingrese su opinion :</p>
+            <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="">Seleccione genero</label>
+            <select name="" id="">
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="">Seleccione genero :</label>
+            <br>
+            <input type="radio" name="masculino " value="Masculino">Masculino
+            <br>
+            <input type="radio" name="femenino " value="Femenino">Femenino
+            <br>
+        </div>
+        <br>
+        <div>
+            <label for="">Ingrese Fecha de Nacimiento :</label>
+            <input type="date" name="nacimiento" id="nacimiento" placeholder="Ingrese fecha de nacimiento">
+        </div>
+        <br>
+        <div>
+            <label for="">Ingrese si conduce un vehiculo</label>
+            <input type="checkbox" name="vehiculo" id="vehiculo" placeholder="vehiculo">
+        </div>
+        <br>
+        <input type="submit" name="Enviar" value="Enviar formulario">
+    </form>
+
+    <!-- ctrl + k + c  para comentar mas rapido -->
+    <br>
+    <button onclick="alert('Cliquea el botton') ">Cliquear botton </button>
+    <hr>
+    <!--Listas -->
+    <h1>Listas</h1>
+    <!-- Listas Ordenadas  -->
+
+    <ol>
+        <li>
+            Hola
+        </li>
+        <li> Como estas</li>
+        <li>
+            Hoy
+        </li>
+    </ol>
+    <br>
+    <!-- Listas desordenadas -->
+    <ul>
+        <li>
+            Hola
+        </li>
+        <li>
+            Como estas 
+        </li>
+        <li>
+            Hoy
+        </li>
+    </ul>
+    <br>
+    <!-- Tablas  -->
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Fecha de nacimiento</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Gary</td>
+                <td>21</td>
+                <td>26/11/2000</td>
+                <td>x56dragon@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Gary</td>
+                <td>21</td>
+                <td>26/11/2000</td>
+                <td>x56dragon@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+
+    <header>
+        <h1>Estructura</h1>
+    </header>
+    <section>
+        <article class="post">
+            <h3>Pagina web </h3>
+            <small>Primera estructura de pagina</small>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus incidunt a nam quibusdam, odit praesentium velit repudiandae alias obcaecati delectus repellendus minima ipsum asperiores quaerat.</p>
+
+        </article>
+    </section>
+    <aside>
+        <h3>Paginas</h3>
+        <nav>
+            <ul>
+                <li><a href="">Web</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <footer>
+        <p>Copyrayth &copy; Pagina 2021</p>
+    </footer>
+</body>
+</html>
+<style>
+    header{
+        text-align: center;
+        background-color: black;
+        color: white;
+        padding: 5px;
+
+    }
+</style>
